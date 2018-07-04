@@ -134,8 +134,8 @@ public class PlayerController : MonoBehaviour {
             
             // 利用addforce做擊退
 
-            playerRigidbody.AddForce(blowDir * 3000);
-            playerRigidbody.AddForce(new Vector3(0,300,0));
+            playerRigidbody.AddForce(blowDir * 1500);
+            playerRigidbody.AddForce(new Vector3(0,800,0));
 
             // 關閉碰到的炸彈避免二次碰撞
             other.gameObject.SetActive(false);
